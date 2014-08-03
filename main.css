@@ -48,16 +48,16 @@ a
 {
 	color:#FFE9FC;
 	text-align:left;
-	font-size:5rem
+	font-size:5rem;
 	font-family:'Dosis',sans-serif;
 }
 #menuList
 {
-    list-style-type: none;
+    list-style-type:none;
 }
 #menuList>li
 {
     float:left;
-	font-size:2.5rem;
+	font-size:5rem;
 	font-family:'Dosis',sans-serif;
 }
