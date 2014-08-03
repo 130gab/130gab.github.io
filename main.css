@@ -34,7 +34,7 @@ a
 #menuContainer
 {
     position:fixed;
-    width: 100%;
+    margin:0;
 	background-color:#DF7401;
 }
 .menuList
