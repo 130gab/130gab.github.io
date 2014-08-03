@@ -44,11 +44,7 @@ a
 	padding-left:15rem;
 	padding-right:15rem;
 }
-#menuList
-{
-    list-style-type:none;
-}
-#menuList>li
+.menuList
 {
     float:right;
 	font-size:5rem;
