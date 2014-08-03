@@ -13,23 +13,22 @@ a
 {
 	color:#FFE9FC;
 	font-family:'Dosis',sans-serif;
-	padding-left:7.5rem;
 }
 .normText1
 {
 	color:#FFE9FC;
 	font-family:'Dosis',sans-serif;
 	font-size:2.5rem;
-	padding-left:30rem;
-	padding-right:30rem;
+	padding-left:35rem;
+	padding-right:35rem;
 }
 .normText2
 {
 	color:#8CD1FF;
 	font-family:'Dosis',sans-serif;
 	font-size:2.5rem;
-	padding-left:30rem;
-	padding-right:30rem;
+	padding-left:35rem;
+	padding-right:35rem;
 }
 #menuContainer
 {
@@ -45,6 +44,6 @@ a
 {
 	font-size:5rem;
 	font-family:'Dosis',sans-serif;
-	text-align:right;
+	float:right;
 	padding-right:5rem;
 }
