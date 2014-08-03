@@ -13,7 +13,6 @@ a
 {
 	color:#FFE9FC;
 	font-family:'Dosis',sans-serif;
-	font-size:5rem;
 	padding-left:7.5rem;
 }
 .normText1
@@ -41,8 +40,6 @@ a
     top:0;
     width: 100%;
 	background-color:#DF7401;
-	padding-left:15rem;
-	padding-right:15rem;
 }
 .menuList
 {
