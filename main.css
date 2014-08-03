@@ -50,6 +50,7 @@ a
 }
 #menuList>li
 {
+    float:right;
 	font-size:5rem;
 	font-family:'Dosis',sans-serif;
 	text-align:right;
