@@ -40,6 +40,8 @@ a
 	position:fixed;
 	right:0;
 	top:0;
+	opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 #menuList2
 {
@@ -50,6 +52,8 @@ a
 	position:fixed;
 	left:0;
 	top:0;
+	opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 #menuList3
 {
@@ -60,8 +64,52 @@ a
 	position:fixed;
 	left:0;
 	bottom:0;
+	opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 #menuList4
+{
+	font-size:5rem;
+	font-family:'Dosis',sans-serif;
+	width:256px;
+	height:256px;
+	position:fixed;
+	right:0;
+	bottom:0;
+	opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+#menuList1:hover
+{
+	font-size:5rem;
+	font-family:'Dosis',sans-serif;
+	width:256px;
+	height:256px;
+	position:fixed;
+	right:0;
+	top:0;
+}
+#menuList2:hover
+{
+	font-size:5rem;
+	font-family:'Dosis',sans-serif;
+	width:256px;
+	height:256px;
+	position:fixed;
+	left:0;
+	top:0;
+}
+#menuList3:hover
+{
+	font-size:5rem;
+	font-family:'Dosis',sans-serif;
+	width:256px;
+	height:256px;
+	position:fixed;
+	left:0;
+	bottom:0;
+}
+#menuList4:hover
 {
 	font-size:5rem;
 	font-family:'Dosis',sans-serif;
