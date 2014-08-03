@@ -36,10 +36,9 @@ h1
 #menuList
 {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 #menuList>li
 {
     float:right;
+	font-size:2.5rem;
 }
