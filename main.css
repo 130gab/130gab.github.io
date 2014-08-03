@@ -20,24 +20,20 @@ a
 	color:#FFE9FC;
 	font-family:'Dosis',sans-serif;
 	font-size:2.5rem;
-	padding-left:15rem;
-	padding-right:15rem;
-	margin-top:20rem;
+	padding-left:30rem;
+	padding-right:30rem;
 }
 .normText2
 {
 	color:#8CD1FF;
 	font-family:'Dosis',sans-serif;
 	font-size:2.5rem;
-	padding-left:15rem;
-	padding-right:15rem;
-	margin-top:20rem;
+	padding-left:30rem;
+	padding-right:30rem;
 }
 #menuContainer
 {
     position:fixed;
-    left:0;
-    top:0;
     width: 100%;
 	background-color:#DF7401;
 }
