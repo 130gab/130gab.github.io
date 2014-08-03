@@ -1,0 +1,28 @@
+html,body
+{
+	background-color:#71AFD8;
+	font-size: 62.5%;
+}
+div
+{
+	padding-left:15rem;
+	padding-right:15rem;
+}
+.normText1
+{
+	color:#FFE9FC;
+	font-family:'Dosis',sans-serif;
+	font-size:2.5rem;
+}
+.normText2
+{
+	color:#8CD1FF;
+	font-family:'Dosis',sans-serif;
+	font-size:2.5rem;
+}
+#menuContainer {
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+}
