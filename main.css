@@ -14,6 +14,14 @@ h1
 	font-family:'Dosis',sans-serif;
 	font-size:3.5rem;
 }
+a
+{
+	color:#FFE9FC;
+	font-family:'Dosis',sans-serif;
+	font-size:5rem;
+	padding:7.5rem;
+	text-align:right;
+}
 .normText1
 {
 	color:#FFE9FC;
@@ -34,7 +42,7 @@ h1
     width: 100%;
 	background-color:#DF7401;
 }
-#menuContainer>title
+#title
 {
 	color:#FFE9FC;
 	text-align:left;
