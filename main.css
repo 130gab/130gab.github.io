@@ -114,6 +114,7 @@ a
 	bottom:0;
 	opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
+}
 #menuList4:hover
 {
 	font-size:5rem;
