@@ -3,13 +3,6 @@ html,body
 	background-color:#6E6E6E;
 	font-size: 62.5%;
 }
-div
-{
-	padding-left:15rem;
-	padding-right:15rem;
-	position:relative;
-	margin-top:10rem;
-}
 h1
 {
 	color:#FFE9FC;
@@ -29,12 +22,18 @@ a
 	color:#FFE9FC;
 	font-family:'Dosis',sans-serif;
 	font-size:2.5rem;
+	padding-left:15rem;
+	padding-right:15rem;
+	margin-top:20rem;
 }
 .normText2
 {
 	color:#8CD1FF;
 	font-family:'Dosis',sans-serif;
 	font-size:2.5rem;
+	padding-left:15rem;
+	padding-right:15rem;
+	margin-top:20rem;
 }
 #menuContainer
 {
@@ -43,6 +42,8 @@ a
     top:0;
     width: 100%;
 	background-color:#DF7401;
+	padding-left:15rem;
+	padding-right:15rem;
 }
 #menuList
 {
