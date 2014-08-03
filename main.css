@@ -8,7 +8,7 @@ div
 	padding-left:15rem;
 	padding-right:15rem;
 	position:relative;
-	top:20rem;
+	top:20;
 }
 h1
 {
@@ -46,8 +46,10 @@ a
 }
 #pageTitle
 {
+	position:fixed;
+	left:1;
+	top:0;
 	color:#FFE9FC;
-	text-align:left;
 	font-size:5rem;
 	font-family:'Dosis',sans-serif;
 }
