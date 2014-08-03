@@ -44,15 +44,6 @@ a
     width: 100%;
 	background-color:#DF7401;
 }
-#pageTitle
-{
-	position:fixed;
-	left:1;
-	top:0;
-	color:#FFE9FC;
-	font-size:5rem;
-	font-family:'Dosis',sans-serif;
-}
 #menuList
 {
     list-style-type:none;
