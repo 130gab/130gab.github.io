@@ -15,7 +15,6 @@ a
 	font-family:'Dosis',sans-serif;
 	font-size:5rem;
 	padding-left:7.5rem;
-	text-align:right;
 }
 .normText1
 {
@@ -54,4 +53,5 @@ a
     float:left;
 	font-size:5rem;
 	font-family:'Dosis',sans-serif;
+	text-align:right;
 }
