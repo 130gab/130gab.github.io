@@ -8,6 +8,12 @@ div
 	padding-left:15rem;
 	padding-right:15rem;
 }
+h1
+{
+	color:#FFE9FC;
+	font-family:'Dosis',sans-serif;
+	font-size:5rem;
+}
 .normText1
 {
 	color:#FFE9FC;
@@ -20,9 +26,20 @@ div
 	font-family:'Dosis',sans-serif;
 	font-size:2.5rem;
 }
-#menuContainer {
+#menuContainer
+{
     position:fixed;
     left:0;
     top:0;
     width: 100%;
+}
+#menuList
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menuList>li
+{
+    float:right;
 }
