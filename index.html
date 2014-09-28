@@ -38,8 +38,10 @@
     		padding:0;
     		text-align:center;
     		text-transform:uppercase;
-			background-color:#B2E228;
+			background:#B2E228;
 			color:#30461C;
+			-webkit-transition:background 0.3s;
+    		transition:background 0.3s;
 		}
 		.menuitem:hover
 		{
@@ -51,7 +53,7 @@
     		padding:0;
     		text-align:center;
     		text-transform:uppercase;
-			background-color:#8DC0D6;
+			background:#8DC0D6;
 			color:#FFFFCC;
 		}
 		.smhsitt
@@ -107,9 +109,9 @@
 			left:0;
 			z-index:10;
 			bottom:0;
-			height:1.2em;
+			height:18px;
 			width:100%;
-			padding:0.1%;
+			padding:0;
 			background-color:#000000;
 			color:#FFEBEC;
 			font-size:1em;
@@ -121,7 +123,7 @@
 			top:0;
 			left:0;
 			width:100%;
-			background-color:#E6E2DD;
+			background-color:transparent;
 			color:#FFFFCC;
 			z-index:-1;
 		}
@@ -129,7 +131,7 @@
 		{
 			margin-left:25%;
 			margin-right:25%;
-			background-color:#00A19B;
+			background-color:transparent;
 			padding:0;
 		}
 		.texts
@@ -203,14 +205,15 @@
         	<div id="bblockcontain">
         		<h2 id="others">Stuff</h2>
         	    <div class="texts">
-        	    	<p>Hi. Nothing Here. Yet</p>
+        	    	<p>Hi. Nothing Here. Yet.</p>
         	        <!--TEMP TO DO: place buttons here + code the javascript-->
         	    </div>
         	</div>
     	</div>
     </div>
     <div id="footercontain">
-    	<span">Made by Gabriel Goh | Last Updated on 28 September 2014 | <a href="http://whaleman.org/" style="color:#FFEBEC" target="_blank">Save the Whales</a></span>
+    	<span style="margin:0.1%;">Made by Gabriel Goh | Last Updated on 28 September 2014 | <a href="http://whaleman.org/" style="color:#FFEBEC" target="_blank">Save the Whales</a></span> 
 	</div>
+	<a href="#headcontain" title="back to top" class="menulink"><img src="icon/gg.png" style="height:18px;width:auto;margin:0;position:fixed;right:0;bottom:0;z-index:100;"></a>
 </body>
 </html>
