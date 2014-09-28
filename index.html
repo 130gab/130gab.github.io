@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<head>
+	<title>A Plate for Websites</title>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <!--plate refers to template(templar with a plate) P.S. This is a comment. Feel Free to delete.-->
+    <!--Template Made By Goh Jun Herng Gabriel (Although this is a comment, please don't delete it. you can delete this bracket text though)-->
+    <!--it would be good to have some prior HTML experience while editing this template. Don't worry if you don't. I'll try to make it simple-->
+    <!--Also, you can delete this comment and the one on line 8-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<style>
+		body
+		{
+			font-family: 'Josefin Sans', sans-serif;
+			background-color:#FFE8B6;
+		}
+		h1
+		{
+			font-size:250%;
+			margin:0;
+			padding-bottom:2%;
+			padding:1%;
+			font-weight:100;
+			font-family: 'Josefin Slab', serif;
+		}
+		h2
+		{
+			font-size:200%;
+			margin:0;
+			padding:0;
+			padding-top:2%;
+			font-weight:100;
+			font-family: 'Josefin Slab', serif;
+		}
+		.menuitem
+		{
+			display:block;
+			border-bottom:solid;
+			border-color:transparent;
+			float:left;
+    		width:20%;
+    		padding:0;
+    		text-align:center;
+    		text-transform:uppercase;
+			background-color:#B2E228;
+			color:#30461C;
+		}
+		.menuitem:hover
+		{
+			display:block;
+			border-bottom:solid;
+			border-color:#C8E196;
+			float:left;
+    		width:20%;
+    		padding:0;
+    		text-align:center;
+    		text-transform:uppercase;
+			background-color:#8DC0D6;
+			color:#FFFFCC;
+		}
+		.smhsitt
+		{
+			display:none;
+		}
+		h1:hover .smhsitt
+		{
+			display:inline-block;
+		}
+		#headcontain
+		{
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			background-color:#FE8C2B;
+			color:#FFFFCC;
+			z-index:0;
+		}
+		#headmargin
+		{
+			margin-left:25%;
+			margin-right:25%;
+			margin-top:0.8%;
+			background-color:#00A19B;
+			padding:0;
+		}
+		#bodycontain
+		{
+			position:absolute;
+			top:0;
+			left:0;
+			right:0;
+			width:100%;
+			color:#532E22;
+			padding:0;
+			margin:0;
+			z-index:-10;
+		}
+		#bodymargin
+		{
+			position:absolute;
+			margin-left:25%;
+			margin-right:25%;
+			background-color:#E6E2DD;
+			top:0;
+			padding:2%;
+		}
+		#footercontain
+		{
+			position:fixed;
+			left:0;
+			z-index:10;
+			bottom:0;
+			height:1.2em;
+			width:100%;
+			padding:0.1%;
+			background-color:#000000;
+			color:#FFEBEC;
+			font-size:1em;
+			text-align:center;
+		}
+		#menucontain
+		{
+			position:fixed;
+			top:0;
+			left:0;
+			width:100%;
+			background-color:#E6E2DD;
+			color:#FFFFCC;
+			z-index:-1;
+		}
+		#menumargin
+		{
+			margin-left:25%;
+			margin-right:25%;
+			background-color:#00A19B;
+			padding:0;
+		}
+		.texts
+		{
+			font-size:1.3em;
+		}
+	</style>
+</head>
+<body>
+	<div id="headcontain">
+    	<div id="headmargin">
+    		<h1>G<span class="smhsitt">abriel&nbsp;</span>G<span class="smhsitt">oh's&nbsp;</span>W<span class="smhsitt">eb</span>P<span class="smhsitt">age</span></h1>
+        	<div id="headmenu">
+        		<a href="#about" class="menulink"><span class="menuitem">About Me</span></a>
+            	<a href="#project" class="menulink"><span class="menuitem">Projects</span></a>
+            	<a href="#views" class="menulink"><span class="menuitem">Blog</span></a>
+            	<a href="#contact" class="menulink"><span class="menuitem">Contact</span></a>
+            	<a href="#others" class="menulink"><span class="menuitem">Stuff</span></a>
+        	</div>
+    	</div>
+    </div>
+    <div id="menucontain">
+    	<div id="menumargin">
+        	<div id="menu">
+        		<a href="#about" class="menulink"><span class="menuitem">About Me</span></a>
+            	<a href="#project" class="menulink"><span class="menuitem">Projects</span></a>
+            	<a href="#views" class="menulink"><span class="menuitem">Blog</span></a>
+            	<a href="#contact" class="menulink"><span class="menuitem">Contact</span></a>
+            	<a href="#others" class="menulink"><span class="menuitem">Stuff</span></a>
+        	</div>
+    	</div>
+    </div>
+    <div id="bodycontain">
+    	<div id="bodymargin">
+        	<div id="headspace">
+    			<br/>
+    			<br/>
+    			<br/>
+    			<br/>
+        		<br/>
+    		</div>
+    		<div id="ablockcontain">
+    			<h2 id="about">About Me</h2>
+    			<div class="texts">
+        			<p>Hello. Here, I tell you about me. I am Gabriel Goh, a student that is 13 years old. I like stuff. One of the main things that I like is reading. Reading is fun. I also like watching some shows. </p>
+            		<p>And this is a new paragraph. Read the text in the browser. It helps. Really.</p>
+        		</div>
+        	</div>
+        	<div id="bblockcontain">
+        		<h2 id="project">Projects</h2>
+            	<div class="texts">
+            		<p>Hello. As you have seen in the section above, I like computer stuff. I also like some other things. So, here are some of my random projects that I have completed, or those that are currently in progress. Some of them are projects done with my friends. Also, if the day comes where I actually have too many projects to display (more than 5), click <a>here</a> to go to a page with all my projects. Have Fun.</p>
+            	    <!--TODO: Place Projects here-->
+            	    <p class="describ">This makes text extra small. Use for stuff like captions. If you are wondering, this is not magic. Just CSS. Also, you can change the video above, or even remove it. Knowledge of html really helps here.</p>
+            	</div>
+        	</div>
+        	<div id="cblockcontain">
+        		<h2 id="views">This block has the pictures. Feel free to rearrange the blocks or add new ones. Just make sure to change the css.</h2>
+        	    <div class="texts">
+        	    	<p>Pictures to demonstrate how to add pictures. Some are half sized, some are large sized. Go figure</p>
+        	        <!--TEMP TO DO: place some pictures here-->
+         		    <p>Oh. Remember to put those p brackets at the start and end of each paragraph. It affects the size of text.</p>
+            	</div>
+        	</div>
+        	<div id="dblockcontain">
+        		<h2 id="contact">Contact Me</h2>
+        	    <div class="texts">
+        	    	<p>So you wanna contact me? Well, you have come to the right place. However, please keep in mind that as this site is completely public. So, I can't release "private info" here. So, maybe only an email address and a facebook page.</p>
+        	        <!--TODO: Contact Details-->
+        	    </div>
+        	</div>
+        	<div id="bblockcontain">
+        		<h2 id="others">Stuff</h2>
+        	    <div class="texts">
+        	    	<p>Hi. Nothing Here. Yet</p>
+        	        <!--TEMP TO DO: place buttons here + code the javascript-->
+        	    </div>
+        	</div>
+    	</div>
+    </div>
+    <div id="footercontain">
+    	<span">Made by Gabriel Goh | Last Updated on 28 September 2014 | <a href="http://whaleman.org/" style="color:#FFFFCC">Save the Whales</a></span>
+	</div>
+</body>
+</html>
